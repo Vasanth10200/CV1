@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Sacramento&display=swap');
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'merriweather',sans-serif;
+    
+}
+hr{
+    border: none;
+    border-top: 2px dotted gray;
+    border-width:5px;
+    width: 3%;
+}
+
+h1{
+    color: #66BFBF;
+    font-family: 'sacramento',sans-serif;
+    font-size:5.625rem;
+    margin: 50px auto 0 auto;
+    
+}
+h2{
+    font-size: 2.5rem;
+    margin-top: 0 ;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    color: #11999e;
+}
+a{
+    color: #11999e;
+}
+
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding: 100px;
+}
+.skill-row{
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+
+}
+.coding{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.editing{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+.pro{
+    text-decoration: underline;
+}
+.top-cloud{
+    position: absolute;
+    right: 400px;
+    top: 40px;
+
+    
+
+}
+.bottom-cloud{
+    position: absolute;
+    left: 400px;
+    bottom: 400px;
+}
+
+.profile{
+    margin: 50px auto 50px auto;
+
+}
+.skills{
+    margin: 50px auto 50px auto;
+}
+.contact-me{
+    margin: 50px auto 50px auto;
+    line-height: 3;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11cdd4);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11cdd4);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11cdd4);
+    background-image: -o-linear-gradient(top, #11cdd4, #11cdd4);
+    background-image: linear-gradient(to bottom, #11cdd4, #11cdd4);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background:  #30e3cb;
+    background-image: -webkit-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom,  #30e3cb, #2bc4ad);
+    text-decoration:none;
+  }
+  .bottom-container{
+      margin: 50px auto 50px auto;
+      background-color: #66BFBF;
+      padding: 50px;
+      margin-bottom: 0;
+      line-height: 2;
+  }
+  .footer-link{
+      padding: 20px;
+      text-decoration: none;
+
+  }
+  .p3{
+      color: #fff;
+  }
+  a:hover{
+      color: white;
+  }
